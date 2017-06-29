@@ -7,6 +7,6 @@ defaults:
       values:
           layout: "post"
 collections:
-    - topics
+    topics:
         output: true
         permalink: /topics/:path/
