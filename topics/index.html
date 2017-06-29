@@ -1,0 +1,10 @@
+---
+layout: base
+title: "All Topics"
+---
+
+<ul>
+{% for topic in site.topics %}
+  <li>{{ topic.title }}</li>
+{% endfor %}
+</ul>
