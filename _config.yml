@@ -4,6 +4,7 @@ defaults:
     -
       scope:
           path: "_posts/"
+          type: topics
       values:
           layout: "post"
 collections:
