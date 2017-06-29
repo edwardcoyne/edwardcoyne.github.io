@@ -1,5 +1,6 @@
 ---
 title: "Web Assembly (wasm)"
+layout: "base"
 ---
 
 WebAssembly is an evolution of NaCl/pNaCL and asm.js. It is an effort to create a IR (intermediate format) for native code (C/C++ primarily) that is both portable and secure. It's primary intent is to allow native code to be distributed as part of a website and run in any browser; Mozilla, Microsoft, Apple, and Google are all signed on. While this part is cool, it isn't what I am interested in. 
