@@ -5,6 +5,7 @@ title: "All Topics"
 
 <ul>
 {% for topic in site.topics %}
-  <li>{{ topic.title }}</li>
+  <li><a href="{{  topic.url  }}"> {{ topic.title }}</a></li>
+
 {% endfor %}
 </ul>
